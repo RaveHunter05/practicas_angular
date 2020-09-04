@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { XyzComponent } from './xyz/xyz.component';
+import { TodoItemComponent } from './components/todo-item/todo-item.component';
+import { TodosComponent } from './components/todos/todos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    XyzComponent
+    XyzComponent,
+    TodoItemComponent,
+    TodosComponent
   ],
   imports: [
     BrowserModule,
